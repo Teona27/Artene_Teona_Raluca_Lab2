@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Artene_Teona_Raluca_Lab2.Data;
 using Artene_Teona_Raluca_Lab2.Models;
 
-namespace Artene_Teona_Raluca_Lab2.Pages.Authors
+namespace Artene_Teona_Raluca_Lab2.Pages.Categories
 {
     public class IndexModel : PageModel
     {
@@ -19,10 +19,11 @@ namespace Artene_Teona_Raluca_Lab2.Pages.Authors
             _context = context;
         }
 
-        public IList<Author> Author { get; set; } = default!;
+        public IList<Category> Category { get;set; } = default!;
+
         public async Task OnGetAsync()
         {
-          Author = await _context.Author.ToListAsync();
+            Category = await _context.Category.ToListAsync();
         }
     }
 }
