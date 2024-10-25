@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:Artene_Teona_Raluca_Lab2Context"
+    }
+  }
+}
