@@ -18,7 +18,5 @@ namespace Artene_Teona_Raluca_Lab2.Data
         public DbSet<Artene_Teona_Raluca_Lab2.Models.Publisher> Publisher { get; set; } = default!;
         public DbSet<Artene_Teona_Raluca_Lab2.Models.Author> Author { get; set; } = default!;
         public DbSet<Artene_Teona_Raluca_Lab2.Models.Category> Category { get; set; } = default!;
-        public DbSet<Artene_Teona_Raluca_Lab2.Models.Member> Member { get; set; } = default!;
-        public DbSet<Artene_Teona_Raluca_Lab2.Models.Borrowing> Borrowing { get; set; } = default!;
     }
 }
