@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Artene_Teona_Raluca_Lab2.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using Artene_Teona_Raluca_Lab2.Data;
-using Artene_Teona_Raluca_Lab2.Models;
 
-namespace CaprarSalajan_AnaCezara_Lab2.Pages.Borrowings
+namespace Artene_Teona_Raluca_Lab2.Pages.Borrowings
 {
     public class IndexModel : PageModel
     {

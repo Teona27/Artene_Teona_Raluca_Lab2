@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Artene_Teona_Raluca_Lab2.Migrations.LibraryIdentity
 {
     /// <inheritdoc />
-    public partial class CreateIdentity : Migration
+    public partial class AddIdentity : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
