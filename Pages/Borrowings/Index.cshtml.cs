@@ -19,7 +19,7 @@ namespace Artene_Teona_Raluca_Lab2.Pages.Borrowings
         {
             Borrowing = await _context.Borrowing
                 .Include(b => b.Book)
-                    .ThenInclude(b => b.Author)
+                .ThenInclude(b => b.Author)
                 .Include(b => b.Member).ToListAsync();
         }
     }

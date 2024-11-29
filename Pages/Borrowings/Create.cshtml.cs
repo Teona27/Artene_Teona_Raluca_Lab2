@@ -24,8 +24,8 @@ namespace Artene_Teona_Raluca_Lab2.Pages.Borrowings
 
         public IActionResult OnGet()
         {
-            var bookList = _context
-              .Book .Include(b => b.Author)
+            var bookList = _context.Book
+             .Include(b => b.Author)
              .Select(x => new
              {
                  x.ID,
